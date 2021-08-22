@@ -1,7 +1,7 @@
 {
     "name": "passthrough-proxy-accuweather",
     "description": "A pass-through proxy to communicate with AccuWeather API server",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "name": "Alan Tai"
     },
