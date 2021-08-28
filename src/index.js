@@ -22,4 +22,4 @@ app.get('/locations/v1/cities/geoposition/search', handler)
     .get('/forecasts/v1/hourly/12hour', handler)
     .get('/forecasts/v1/daily/5day', handler);
 
-exports.handler = async (event, context, callback) => await app.serve(event, context, callback);
+exports.handler = async (event, context, callback) => app.serve(event, context, callback);
